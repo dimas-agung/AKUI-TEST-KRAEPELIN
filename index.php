@@ -1,16 +1,16 @@
 <?php
-session_start();
-if(isset($_POST['submit'])){
-    $_SESSION['nama'] = $_POST['nama'];
-    $_SESSION['posisi'] = $_POST['posisi'];
-    $_SESSION['tanggal_tes'] = $_POST['tanggal_tes'];
-    $_SESSION['tanggal_lahir'] = $_POST['tanggal_lahir'];
-    $_SESSION['usia'] = $_POST['usia'];
+// session_start();
+// if(isset($_POST['submit'])){
+//     $_SESSION['nama'] = $_POST['nama'];
+//     $_SESSION['posisi'] = $_POST['posisi'];
+//     $_SESSION['tanggal_tes'] = $_POST['tanggal_tes'];
+//     $_SESSION['tanggal_lahir'] = $_POST['tanggal_lahir'];
+//     $_SESSION['usia'] = $_POST['usia'];
     
 
-    header("Location: instruksi.php");
-    exit;
-}
+//     header("Location: instruksi.php");
+//     exit;
+// }
 
 date_default_timezone_set('Asia/Jakarta');
 ?>
@@ -27,6 +27,9 @@ date_default_timezone_set('Asia/Jakarta');
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <title>Login</title>
+  <meta name="description" content="Tes Kraepelin">
+  <meta name="author" content="Clarymond Simbolon" />
+  <link rel="shortcut icon" type="image/png" href="logo2.svg" />
 </head>
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");

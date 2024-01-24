@@ -6,7 +6,7 @@
     <title>hasil Pretes</title>
     <meta name="description" content="Tes Kraepelin">
     <meta name="author" content="Clarymond Simbolon" />
-    <link rel="shortcut icon" type="image/png" href="akui.png" />
+    <link rel="shortcut icon" type="image/png" href="logo2.svg" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"

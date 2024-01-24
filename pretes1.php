@@ -21,7 +21,7 @@ session_start();
     <title>Tes Kraepelin</title>
         <meta name="description" content="Tes Kraepelin">
     <meta name="author" content="Clarymond Simbolon" />
-    <link rel="shortcut icon" type="image/png" href="akui.png" />
+    <link rel="shortcut icon" type="image/png" href="logo2.svg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">

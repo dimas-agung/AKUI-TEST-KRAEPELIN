@@ -17,7 +17,7 @@ session_start();
 
 <head>
 <script defer>
-    sub4 = localStorage.getItem('sub25');
+    sub4 = localStorage.getItem('scores25');
     if (!sub4) {
       window.location.href = 'index.php';
     }

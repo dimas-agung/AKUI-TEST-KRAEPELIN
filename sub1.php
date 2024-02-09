@@ -287,9 +287,8 @@ session_start();
                 pindah("petunjuk");
             });
             
-            var data = localStorage.getItem('key');
-            var parsedData = JSON.parse(data);
-            var nama = parsedData.data.nama;
+            var data = localStorage.getItem('nama');
+            var nama = data;
             document.getElementById('userName').innerText = nama;
 
             document.querySelector("#tampil-nomor p:nth-of-type(1)").innerHTML = 0; // Replace 5 with your desired number

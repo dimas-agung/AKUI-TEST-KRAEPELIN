@@ -1,8 +1,9 @@
+
 <?php
 require 'url_api.php';
 
 $nik = $_GET['nik'];
-$url = $url_api . 'api/Pelamar?nik=' . $nik;
+$url = $url_api . 'api/Undangan-Psikotest?nik=' . $nik;
 
 $data = @file_get_contents($url);
 

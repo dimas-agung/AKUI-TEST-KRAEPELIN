@@ -148,7 +148,7 @@ session_start();
                         <div id="tes" class="kelompok d-none"
                             style="display: flex; flex-direction: column; height: 100% ">
                             <div style="position:relative">
-                                <h1 class="judul" id="userName"></h1>
+                                <p class="judul" id="userName"></p>
                                 <div style="position: absolute; right: 0; top: 50px">
                                     <div style="vertical-align: top">
                                         <div style="display: inline-block;">
@@ -337,9 +337,8 @@ session_start();
                 pindah("petunjuk");
             });
 
-            var data = localStorage.getItem('key');
-            var parsedData = JSON.parse(data);
-            var nama = parsedData.data.nama;
+            var data = localStorage.getItem('nama');
+            var nama = data;
             document.getElementById('userName').innerText = nama;
 
             // document.querySelector("#tampil-nomor p:nth-of-type(1)").innerHTML = Math.floor(Math.random() * 10);

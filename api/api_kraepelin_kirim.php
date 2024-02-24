@@ -1,7 +1,7 @@
 <?php
 require 'url_api.php';
 
-$url = $url_api . 'api/Kraepelin-Store';
+$url = $url_api . 'api/Kraepelin/Store';
 
 $data = array(
     'nik' => $_POST['nik'],

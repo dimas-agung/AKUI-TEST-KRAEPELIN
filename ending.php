@@ -215,8 +215,17 @@
 
         var data = localStorage.getItem('key');
 
-        var parsedData = JSON.parse(data);
-        var nik = parsedData.data.nik;
+      
+        if (data) {
+            var parsedData = JSON.parse(data);
+            if (parsedData && parsedData.nik) {
+                var nik = parsedData.nik;
+            } else {
+                console.error("Properti 'nik' tidak ditemukan dalam struktur data.");
+            }
+        } else {
+            console.error("Data tidak ditemukan di localStorage.");
+        }
         // var nama = parsedData.data.nama;
         // var jabatan_id = parsedData.data.jabatan_id;
 

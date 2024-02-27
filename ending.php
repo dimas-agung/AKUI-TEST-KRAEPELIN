@@ -30,7 +30,7 @@
 <body>
   <div class="container text-center">
         <h1 class="mb-4">Terima Kasih telah mengerjakan Tes Kraepelin</h1>
-        <p class="lead">Jawaban tes anda telah terkirim <br> silahkan menunggu informasi HR selanjutnya</p>
+        <p class="lead">Jawaban tes anda telah terkirim. <br> Silahkan menunggu informasi HR selanjutnya</p>
   </div>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
